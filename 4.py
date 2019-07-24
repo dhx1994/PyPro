@@ -1,0 +1,20 @@
+xxx = [1,2,3,'dh','我站在山坡上','hello']
+
+xxx.append('优哉游哉向下望')
+print(xxx)
+a = xxx.index(1)
+print(a)
+xxx.insert(7,'长得丑')
+print(xxx)
+b = xxx.count(1)
+print(b)
+xxx1 = ['活得久','长得帅','老的快']
+xxx.extend(xxx1)
+print(xxx)
+c = xxx.pop(3)
+print(c)
+print(xxx)
+xxx.remove('hello')
+print(xxx)
+xxx.clear()
+print(xxx)
