@@ -46,7 +46,8 @@ def ressery(sql):
         de.close()   
         return res
     except:
-        print('sql语句输入错误') 
+        print('sql语句输入错误')
+        return False 
 # 主函数
 # 插入数据库
 a = input('请输入sql语句：')
